@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './login.css';
-import Wallpaper from '../../assets/images/landing-bg.jpg'
+import Wallpaper from '../../assets/images/bg-side-001-clean.jpg'
 import axios from 'axios'
 
 import Modal from 'react-bootstrap/Modal'
