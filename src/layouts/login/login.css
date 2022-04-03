@@ -55,16 +55,18 @@
         color: #b0adad; }
     .login-wrapper .login-btnn {
       padding: 13px 20px;
-      background-color: #17a2b8;;
+      background-color: #000000;;
       border-radius: 0;
       font-size: 20px;
       font-weight: bold;
       color: #fff;
       margin-bottom: 14px; }
-      .login-wrapper .login-btn:hover {
+      .login-wrapper .login-btnn:hover 
+      {
         border: 1px solid #17a2b8;;
         background-color: #fff;
-        color: #17a2b8;; }
+        color: #17a2b8;
+       }
     .login-wrapper a.forgot-password-link {
       color: #080808;
       font-size: 14px;

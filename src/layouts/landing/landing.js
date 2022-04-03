@@ -11,7 +11,7 @@ const Landing=()=>{
                 <div className="container pt-4">
                     <div className="row  align-items-center justify-content-center text-center">
                         <div className="col-lg-10 align-self-end">
-                            <h1 className="text-uppercase text-warning font-weight-bod text-gradient-01 font-style-01">lottery app</h1>
+                            <h1 className="text-uppercase display-1 text-gradient-01 font-style-01">lottery app</h1>
                             <hr className="divider my-4 bg-secondary" />
                         </div>
                         <div className="col-lg-8 align-self-baseline">

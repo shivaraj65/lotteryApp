@@ -58,7 +58,11 @@ const Login=()=>{
         <div>
             <div className="container-fluid">
             <div className="row">
-                <div className="col-sm-6 login-section-wrapper">
+                <div className="col-sm-7 px-0 mx-0 d-none d-sm-block">
+                    <img src={Wallpaper} alt="login image1" className="login-img"/>
+                </div>
+
+                <div className="col-sm-5 login-section-wrapper">
                 <div className="brand-wrapper">
                     <h5 className="text-blue font-weight-bold h3 font-style-02" style={{letterSpacing: "2px"}}>Lottery App</h5>
                 </div>
@@ -101,10 +105,7 @@ const Login=()=>{
                     {/* <a href="#/login" className="forgot-password-link">Forgot password?</a> */}
                     <p className="login-wrapper-footer-text">Don't have an account? <Link to="/signup" className='pl-2'>Signup here</Link></p>
                 </div>
-                </div>
-                <div className="col-sm-6 px-0 mx-0 d-none d-sm-block">
-                <img src={Wallpaper} alt="login image1" className="login-img"/>
-                </div>
+                </div>                
             </div>
             </div>
 
